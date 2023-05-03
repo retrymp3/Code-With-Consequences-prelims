@@ -102,6 +102,7 @@ function switchTheme() {
     // Todo : toggle the dark class on the calculator element
     // Todo : toggle the dark class on the calculator element
     // Todo : You may further move with your own css to change the theme of the calculator
+    var theme = document.getElementById("theme");
 }
 
 function toggleRad() {
