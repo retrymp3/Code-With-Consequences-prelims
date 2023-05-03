@@ -1,12 +1,19 @@
-/*Todo: import Merienda font from Google Font with 500 font weight  */
-/*Todo: import Arvo font from Google Font with 400 and 700 font weight (Note: Google Fonts allow importing multiple font weights, find how :) )*/
+/*Done. Todo: import Merienda font from Google Font with 500 font weight  */
+/*Done. Todo: import Arvo font from Google Font with 400 and 700 font weight (Note: Google Fonts allow importing multiple font weights, find how :) )*/
 
 /*Todo: make the page responsive by fixing the css where ever necessary*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Merienda:wght@500&display=swap');
+
 body {
     margin: 0;
     height: 100vh;
-    /*Todo: center all the contend using appropriate properties */
+    /*Done. Todo: center all the contend using appropriate properties */
+    text-align: center;
     background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card {
     background: #fff;
@@ -17,7 +24,9 @@ body {
     border: #414141 9px solid;
     flex-direction: row;
     border-radius: 30px;
-    /*Todo: css required to make the image-avatar div floating */
+    /* Done. Todo: css required to make the image-avatar div floating */
+    float: right;
+    position: relative;
 }
 .card .title {
     font-family: 'Arvo', serif;
@@ -48,9 +57,12 @@ body {
     width: 180px;
     height: 180px;
     /*Todo: position this div to overlay the card */
+    /*transform: translate(-50%, -50%); */
+    position: absolute;
     border-radius: 50%;
     border: 6px solid white;
     background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
     top: 45px;     /*Todo: can we make it responsive ? */
     left: 170px;   /*Todo: can we make it responsive ? */
 }
@@ -76,7 +88,8 @@ path {
     background-position: bottom center;
     background-size: cover;
     background-color: #000000;
-    /*Todo: apply a background gradient at 315deg from color #000000 0% to #414141 74% (Or play around with more css )*/
+    /*Done Todo: apply a background gradient at 315deg from color #000000 0% to #414141 74% (Or play around with more css )*/
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 
 .name {
