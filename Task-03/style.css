@@ -226,9 +226,6 @@ p {
 }
 
 /*Todo: postion the wrapper for the buttons to position them on the left side of the calculator*/
-.wrap {
-  margin-right: 17%;
-}
 
 @media screen and (min-width: 200px) {
   .wrap {
