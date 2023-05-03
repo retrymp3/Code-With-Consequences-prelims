@@ -220,17 +220,17 @@ p {
 /*Todo: postion the wrapper for the buttons to position them on the left side of the calculator*/
 @media screen and (min-width: 200px) {
   .wrap{
-    margin-left: 25%;
+    margin-right: 20%;
   }
 }
 @media screen and (min-width: 400px) {
   .wrap{
-    margin-left: 20%;
+    margin-right: 24%;
   }
 }
 @media screen and (min-width: 800px) {
  .wrap{
-  margin-left: 18%;
+  margin-left: 6%;
  } 
 }
 
